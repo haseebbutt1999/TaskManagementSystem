@@ -1,0 +1,143 @@
+/*css by haseeb start*/
+.custom-ul{
+    margin-top: 20px;
+}
+.custom-ul li {
+    padding: 8px 10px;
+    list-style-type: circle;
+    height: 50px;
+}
+.custom-ul2 li {
+    padding: 8px 10px;
+    list-style-type: circle;
+    height: 50px;
+}
+
+span.select2-selection.select2-selection--multiple {
+    width: 340px !important;
+    border: none;
+}
+.custom-anchor:hover{
+    color:white;
+}.custom-anchor{
+     color:#b7c0cd;
+     text-decoration: none;
+ }
+/*table using divs start*/
+
+.custom-table2 {display:block; }
+.custom-row {
+    display:block;
+    border-bottom: 1px solid lightgray;
+}
+.custom-row2 {
+    display:block;
+
+}
+.custom-cell {
+    display:inline-block;
+}
+.custom-cell2 {
+    display:inline-block;
+    text-align: right;
+}
+
+.custom-row .custom-cell {
+    width: 37%;
+    padding: 20px 30px;
+}
+.custom-row:first-child {
+    font-weight: 900;
+}
+.custom-row .custom-cell2{
+    width: 20%;
+
+}
+.custom-row:last-child {
+    border-bottom: none;
+}
+
+/*table using divs end*/
+
+/* right side bar start */
+#custom-body.sidebar_active {
+    overflow: hidden;
+}
+.rightsidebar {
+    /*height: 100%;*/
+    width: 0;
+    box-shadow: 0px 5px 5px rgb(77 68 68 / 60%);
+    position: fixed;
+    /*z-index: 9999;*/
+    /*top: 0;*/
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    /*padding-top: 60px;*/
+
+    /*position: absolute;*/
+    top: 60px;
+    /*width: 250px;*/
+}
+
+.rightsidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.rightsidebar a:hover {
+    color: #f1f1f1;
+}
+
+.rightsidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    /*font-size: 36px;*/
+    /*margin-left: 50px;*/
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+.custom-accordian{
+    background: rgb(247, 247, 247);
+    border-radius: 5px;
+    padding-bottom: 1px;
+}
+li.paginate_button.page-item.active {
+    z-index: -1;
+}
+.project-members a {
+    display: inline-block;
+}
+
+@media (max-width: 700px) {
+    .custom-row{
+        width: 600px;
+    }
+    .custom-row2{
+        width: 600px;
+    }
+}
+
+/* right side bar end */
+/*css by haseeb End*/
